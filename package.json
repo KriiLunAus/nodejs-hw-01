@@ -1,0 +1,26 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "get-all": "nodemon ./src/scripts/getAllContacts.js",
+    "generate": "nodemon ./src/scripts/generateContacts.js",
+    "add-one": "nodemon ./src/scripts/addOneContact.js",
+    "count": "nodemon ./src/scripts/countContacts.js",
+    "thanos": "nodemon ./src/scripts/thanos.js",
+    "remove-all": "nodemon ./src/scripts/removeAllContacts.js"
+  },
+  "keywords": [],
+  "author": "Bosyk Dmytro  <bosik.dmutro@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@faker-js/faker": "^8.4.1",
+    "eslint": "^9.4.0",
+    "globals": "^15.3.0",
+    "nodemon": "^3.1.2"
+  }
+}
