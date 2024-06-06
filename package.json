@@ -6,12 +6,12 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src/**/*.js",
-    "get-all": "nodemon ./src/scripts/getAllContacts.js",
-    "generate": "nodemon ./src/scripts/generateContacts.js",
-    "add-one": "nodemon ./src/scripts/addOneContact.js",
-    "count": "nodemon ./src/scripts/countContacts.js",
-    "thanos": "nodemon ./src/scripts/thanos.js",
-    "remove-all": "nodemon ./src/scripts/removeAllContacts.js"
+    "get-all": "node ./src/scripts/getAllContacts.js",
+    "generate": "node ./src/scripts/generateContacts.js",
+    "add-one": "node ./src/scripts/addOneContact.js",
+    "count": "node ./src/scripts/countContacts.js",
+    "thanos": "node ./src/scripts/thanos.js",
+    "remove-all": "node ./src/scripts/removeAllContacts.js"
   },
   "keywords": [],
   "author": "Bosyk Dmytro  <bosik.dmutro@gmail.com>",

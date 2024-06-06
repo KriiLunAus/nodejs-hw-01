@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "name": "Lawrence Moen",
+    "phone": "368.904.7410 x200",
+    "email": "Ally.Christiansen10@hotmail.com",
+    "job": "Global Infrastructure Technician"
+  },
+  {
+    "name": "Samuel Borer",
+    "phone": "769-463-4062 x4033",
+    "email": "Michel_Stiedemann@yahoo.com",
+    "job": "Senior Configuration Agent"
+  },
+  {
+    "name": "Dr. Cornelius O'Kon",
+    "phone": "(356) 642-2822 x36502",
+    "email": "Treva_Kshlerin31@hotmail.com",
+    "job": "District Interactions Planner"
+  },
+  {
+    "name": "Darren Sipes",
+    "phone": "1-566-867-1807 x0336",
+    "email": "Marisol3@hotmail.com",
+    "job": "Forward Accountability Manager"
+  },
+  {
+    "name": "Ira Gibson",
+    "phone": "(556) 961-0807",
+    "email": "Parker.Waelchi@hotmail.com",
+    "job": "Internal Factors Developer"
+  },
+  {
+    "name": "Freda Bernhard",
+    "phone": "997.437.6769",
+    "email": "Gilbert51@hotmail.com",
+    "job": "Direct Mobility Representative"
+  },
+  {
+    "name": "Andy Armstrong",
+    "phone": "(927) 899-3681 x541",
+    "email": "Cali_Grady46@hotmail.com",
+    "job": "Central Metrics Technician"
+  },
+  {
+    "name": "Ruben Hackett",
+    "phone": "1-316-749-8877 x389",
+    "email": "Sophia_Kuhic43@gmail.com",
+    "job": "Customer Mobility Consultant"
+  },
+  {
+    "name": "Nichole Waelchi",
+    "phone": "1-239-688-2488 x36320",
+    "email": "Veda36@yahoo.com",
+    "job": "Global Optimization Analyst"
+  }
+]

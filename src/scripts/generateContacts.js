@@ -14,8 +14,7 @@ try {
     const contacts = JSON.parse(existingContacts);
 
     contacts.push(...data);
-    console.log(JSON.stringify(contacts));
-    // await fs.writeFile(pathToDB, JSON.stringify(contacts, null, 2));
+    await fs.writeFile(pathToDB, JSON.stringify(contacts, null, 2));
 } catch (error) {
     console.log("Помилка", error);
 }

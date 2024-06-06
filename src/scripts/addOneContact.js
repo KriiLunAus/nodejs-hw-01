@@ -5,11 +5,15 @@ import { createFakeContact } from '../utilits/createFakeContact.js';
 
 export const addOneContact = async () => {
 
-    const contactToAdd = createFakeContact();
+    const data = [];
+    data.push(createFakeContact());
 
-    // fs.writeFile(pathToDB, JSON.stringify(contactToAdd));
 
+    const existingContacts = await fs.readFile(pathToDB, "utf-8");
+    const contacts = JSON.parse(existingContacts);
+
+    contacts.push(...data);
+    await fs.writeFile(pathToDB, JSON.stringify(contacts, null, 2));
 };
 
-console.log(pathToDB);
 await addOneContact();
